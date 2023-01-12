@@ -1,0 +1,369 @@
+博弈论
+    结论 P687
+    01Game P693
+    BJWC 2009, 取石子游戏 P689
+    CF Round #99 (Div. 1), World of Darkraft P679
+    SDOI 2009, E&D P683
+    SDOI 2016, 硬币游戏 P691
+动态规划
+    背包dp
+        01背包 P1
+        多重背包 P3
+        二维背包 P5
+        分组背包 P6
+        混合背包 P7
+        完全背包 P9
+    概率期望dp
+        E - Sugoroku 3 P697
+        CCPC威海CHASE! P695
+    区间dp
+        括号数列，噩梦难度 P11
+        括号序列 P13
+        石子合并 P14
+        石子合并2 P15
+        序列删除 P16
+        炸敌人 P17
+        ICPC Kunming 2020 C, Cities P19
+        Pangu and Stones P20
+    树形dp
+        换根dp
+            距离和 P23
+            流 P40
+            树上连通块 P39
+            最长路径 P37
+        其他
+            等距节点 P35
+            王国侵略 P33
+            抓蝴蝶 P31 
+        树上背包
+            怪物猎人 P29
+            没有上司的舞会2 P28
+            树上背包1 P27
+            树上背包2 P26
+            树上背包3 P25
+        树上路径
+            1 P24
+            2 P21
+    数位dp
+        不懂 P49
+        梦幻岛宝珠 P48
+        数数 P44
+        数数2 P47
+        数数3 P45
+        数位和 P43
+        CCPC Changchun 2020 D, Meaningless Sequence P42
+        CCPC广州M
+        Nearest Beautiful Number P41
+    图上dp
+        从1到n花费小于T的最长路 P55
+        环上dp P57
+        普通图边权递增最长路 P56
+        拓扑排序后求最长路 P59
+    序列dp
+        最长公共子序列 P53
+        最长回文子串 P51
+        最长上升子序列 P52
+    状压dp
+        初级
+            旅行商 P61
+            麦当劳 P62
+            摸鱼 P63
+            消除 P65
+        中级
+            连锁商店 P67
+            两个数异或等于0的最小位置 P69
+            异或等于0的集合 P70
+            元音 P71
+            子集和 P72
+            and卷积 P73
+        题目
+            连通性状压dp P64
+            F - Simple Operations on Sequence P698
+结论题（贪心）
+    黑科技 P663
+    子序列:长度为k的序列一共有2^k-1个子序列
+    最小交换次数:如果我们想要 a[i] 到 b[j] 上，我们就建立一条件 i->j 。
+    最少操作次数等于 n 减去环的个数（环中不能有相同的元素）
+数据结构
+    倍增
+        树上倍增 P79
+        F - Exactly K Steps P671
+        lca P77
+        ST表 P78
+        ST表二分 P75
+    并查集
+        加权并查集 P87
+        可撤销并查集板子 P82
+        奇偶游戏 P85
+        食物链 P83
+        DSU模板 P81
+    笛卡尔树
+        区间最小值位置相同 P88
+        Bracket Cost
+        数组模板 
+        STL模板
+    根号分治分块
+        等差数列加 P89
+        图染色 P90
+        序列维护 P91
+    珂朵莉树
+        板子 P93
+        小红的公倍数 P95
+    可持久化  
+        可持久化并查集 P97
+        可持久化数组 P99
+        可持久化线段树 P101
+        cf主席树 + 随机化哈希
+    莫队
+        小Z的袜子 P103
+        重复的数 P105
+        E - Prefix Equality P107
+    欧拉序
+        树上LCA P109
+    平衡树
+        pbds P110
+    启发式合并
+        DSU on tree
+            模板 P111
+            异或和 P119
+            CF600E,Lomsatgelral P113
+            IOI2011, Race P115
+        好序列-启发式分治 P117
+        梦幻布丁 P118
+    三分
+        板子 P201
+        不降子数组游戏 P203
+        E - Maximize! P202
+    扫描线
+        二维数点 P205
+        矩形面积并 P207
+        链表 扫描线 P209
+        区间不同数之和 P211
+    树分治
+        距离统计 P699
+        BZOJ 3697, 采药人的路径 P703
+        BZOJ 3730, 震波 P705
+        IOI2011, Race P711
+        Tree P709
+    树链剖分
+        动态树 P217
+        模板 P215
+        模板(树状数组) P221
+        软件包管理器 P225
+        LCA P224
+        SDOI2011, 染色 P233
+        Static Query on Tree P229
+        ZJOI2008, 树的统计 P237
+    树上差分
+        松鼠的新家 P241
+        天天爱跑步 P243
+    树状数组
+        二维树状数组 P245
+        区间加区间和 P246
+        树状数组 P247
+    线段树
+        01线段树
+            字典树X线段树 P248
+        线段树二分
+            线段树二分 P249
+            E - Mark and Professor Koro P251
+        板子 P255
+        单点修改 P259
+        区间上升子数组和 P261
+        区间最大连续子段和 P263
+        区间gcd P265
+        区间mex P269
+        线段树标记 P271 
+        线段树异或 P273
+    bitset
+        介绍 P270
+        Backpack P276
+        G-Trigngle P275
+        BZOJ 3687, 简单题 P811
+        BZOJ 4503, 两个串 P816
+        DAG 计数 P815
+        k 维数点 P812
+        Ynoi2017, 由乃的玉米田 P813
+    dfs序
+        1 P277
+        2 P279
+        ASP
+    Kruskal 重构树
+        E. Mark and Professor Koro P281
+        Life is a Game
+数学
+    多项式
+        FFT fast P715
+        ICPC Macau 2021 E, Pass the Ball! P717
+        NTT P801
+        ZJOI 2014, 力 P809
+    计算几何
+        多边形
+            多边形板子 P427
+            最小矩形覆盖 P431
+            Airport Construction P483
+            The Grand Tournament P601
+        极角排序
+            板子简 P515
+            锐角三角形 P511
+            ICPC EC Final 2021 D, Two Walls P507
+            oil P503
+        圆
+            板子 P499
+            多边形随便转包含点个数的期望 P625
+            最小圆 k 覆盖 P633
+            n个圆分成了多少个区域 P641
+        板子二维 P415
+        板子三维 P423
+    数论
+        阶，原根，指数方程
+            阶 P520
+            原根 P487
+            指数方程1 P489
+            指数方程2 P493
+        莫比乌斯反演
+            积性函数
+                常见的积性函数 P481
+            互质集合 P479
+            互质数对 P477
+            莫比乌斯反演 P475 
+            gcd之和 P474
+            LCMSUM1 P473
+            LCMSUM2 P471
+        逆元
+            1到n的逆元 P470
+            任意多个数的逆元 P469
+        欧拉函数
+            板欧拉函数(多个数) P468
+            欧拉函数(一个数) P467
+            上帝与集合的正确用法 P464
+            Power Tower P465
+        筛质数
+            米勒-拉宾素性检验
+            区间筛 P463
+            线性筛质数 P462
+            Pollard-Rho
+        习题
+            大于一个数必有解 P461
+            豪华游轮 P458
+            射线经过点的最短时间 P459 
+            因子和 P457
+        整除分块
+            板子 P456
+            整除分块 P455
+        中国剩余定理
+            求有无解 P454
+            求x P453
+            区间x,y的个数 P452
+        exgcd
+            扩展欧几里得 P451
+            ax-by=gcd(a,b) P450
+            ax+by=d P449
+            2022CCPC桂林Draw a triangle P817
+        Lucas
+            古代猪文 P447
+            礼物 P445
+            组合数mod合数 P443
+            组合数mod素数 P341
+        容斥
+            810975
+        0 结论 P439
+        高斯消元 P438
+        快速幂慢速乘 P436
+        上取整下取整 P422
+        相乘取模 P426
+    线性代数
+        线性基
+            区间 xor P677
+            线性基 第k大 P681
+            Link is as bear P667
+            WC2011, 最大XOR和路径 P675
+        行列式
+            生成树计数 P608
+        矩阵乘法 P437
+    组合数学
+        分段打表 P496
+        组合数取模 P495
+        E - Placing Jinas P657
+        Subsequence LCM P659
+图论    
+    2-sat
+        满汉全席 P613
+        奶牛会议 P617
+        NOI2017, 游戏 P621
+    差分约束
+        差分约束系统 P283
+        Festival P611
+    费用流
+        数字题型 P285
+        有上下界最小费用可行流
+        运输问题 P289
+        最小费用流 P297
+        k取方格数 P293
+    割点，割边
+        割边 P292
+        割点 P288
+        割点后不连通的点对 P296
+        矿场搭建 P299
+        添边变成边双 P301
+    基环树
+        IOI 2008, Island P605
+        ZJOI 2008, 骑士 P609
+    最大流  
+        0 Dinic模板 P303
+        试题库 P653
+        最大流 P305
+        最长递增子序列 P307
+        Dicing P309
+        F. Madoka and The First Session P649
+        jly版
+    最小割
+        太空飞行计划 P311
+        网格取数 P317
+        最小放障碍的点 P315
+        最小生成树 P319
+        happiness P401
+        CCPC2021威海H. City Safety P819
+    SCC
+        强连通分量 P404
+        受欢迎的牛 P405
+        所驼门王的宝藏 P407
+        最大半连通子图 P409
+        ATM P413
+杂
+    高精度
+    哈希表 P392
+    快读 
+    区间计数 P497
+    取模
+    builtin函数 P656
+    区间匹配问题 P823
+折半搜索
+    幸运数字 P827
+    序列异或 P826
+    F - XOR on Grid Path P829
+    Number Clicker P831
+    USACO12 OPEN, Balanced Cow Subsets P834
+CDQ分治
+    BZOJ 2683, 简单题
+    BZOJ 3262, 陌上花开
+    CQOI2011, 动态逆序对
+字符串
+    后缀数组
+        例题 P835
+        AHOI 2013, 差异 P837
+        NOI 2015, 品酒大会 P839
+        SA-IS P843
+        SA P847
+        TJOI 2015, 弦论 P849
+    AC自动机
+        【模板】AC 自动机（二次加强版) P865
+        JSOI 2007, 文本生成器 P863
+        NOI 2011, 阿狸的打字机 P859
+        POI 2000, 病毒 P857
+        TJOI 2013, 单词 P855
+    kmp P853
+    字符串哈希 P430
+    Z函数 P435
+    字典树    
+init P434

@@ -1,0 +1,5 @@
+https://zhuanlan.zhihu.com/p/503970952?utm_source=wechat_session&utm_medium=social&utm_oi=1250214672223412224&utm_campaign=shareopn
+
+结论就是，如果我们想要 a[i] 到 b[j] 上，我们就建立一条件 i->j 。
+
+最少操作次数等于 n 减去环的个数（环中不能有相同的元素）
